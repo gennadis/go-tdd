@@ -1,4 +1,4 @@
-package print
+package main
 
 import (
 	"bytes"
@@ -15,4 +15,5 @@ func TestGreet(t *testing.T) {
 	if got != want {
 		t.Errorf("got %q want %q", got, want)
 	}
+
 }
